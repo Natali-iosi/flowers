@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название сайта</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">Art<span>Picture</span></a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#katalog" class="nav__link">Коллекции</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Меню">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Картины на заказ</h1>
+                <p class="hero__subtitle">Качественные картины по доступным ценам</p>
+                <div class="hero__buttons">
+                    <a href="#menu" class="btn btn--primary">Коллекции</a>
+                    <a href="#contacts" class="btn btn--outline">Найти нас</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__image">
+                        <img src="images/рамки.jpg" alt="">
+                    </div>
+                    <div class="about__content">
+                        <h2 class="section-title">Картины</h2>
+                        <p class="about__text">В нашем интернет-магазине Вы сможете подобрать из более, чем 45000 произведений искусства репродукции картин известных художников на холсте или копии картин маслом на заказ.</p>
+                        <p class="about__text">Купить картину у нас можно в багетной раме на заказ в нужном Вам размере</p>
+                        <ul class="about__features">
+                            <li class="feature-item">
+                                <span></span>
+                            <li class="feature-item">
+                            <i class="fa-regular fa-image"></i> &nbsp
+                                <span>Мы можем подобрать Вам изображение по заданной тематике</span>
+                            </li>
+                            <li class="feature-item">
+                            <i class="fa-regular fa-image"></i> &nbsp
+                                <span>Можно сделать Постер или Композицию из Ваших изображений, в том числе на холсте</span>
+                            </li>
+                            <li class="feature-item">
+                            <i class="fa-regular fa-image"></i> &nbsp
+                                <span>С помощью другого конструктора Вы сможете воспользоваться уникальной услугой создания Композиции  из фотографий и постеров</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Коллекции</h2>
+                <div class="menu__content active" id="coffee">
+                    <div class="menu__grid">
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">ЖАНРЫ/Тематики</h3>
+                                <span class="menu-item__price">от 1324 ₽</span>
+                            </div>
+                            <p class="menu-item__description">Репродукции картин по жанрам: творения лучших авторов, в том числе и самых известных</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Современные художники</h3>
+                                <span class="menu-item__price">от 924 ₽</span>
+                            </div>
+                            <p class="menu-item__description">Покупка картин современных художников станет лучшим выбором для всех, кто ценит современное искусство</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Картины маслом</h3>
+                                <span class="menu-item__price">от 724 ₽</span>
+                            </div>
+                            <p class="menu-item__description">Разнообразная палитра красок может передать не только смысл картины, но и настроение</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Художники (ВСЕ)</h3>
+                                <span class="menu-item__price">от 1324 ₽</span>
+                            </div>
+                            <p class="menu-item__description">Каждый человек наделен чувством прекрасного. Как приятно созерцать фрагменты жизни на картинах художника</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Картины русских художников</h3>
+                                <span class="menu-item__price">от 1024 ₽</span>
+                            </div>
+                            <p class="menu-item__description">Великолепие и многообразие русской живописи всегда радовала ценителей искусства совершенством идей. Это и есть основной особенностью произведений известнейших художников</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Цифровая графика</h3>
+                                <span class="menu-item__price">от 824 ₽</span>
+                            </div>
+                            <p class="menu-item__description">Цифровая графика – самостоятельное направление написания картин. Оно имеет определенные особенности, правила и преимущества, но предъявляет повышенные требования к цифровому художнику</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы</h2>
+                <div class="reviews__slider">
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Не ожидала, что качество будет отличным, так как цена очень хорошая!</p>
+                        <div class="review__author">
+                            <img src="images/Татьяна.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Татьяна Сергиенко</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Вы - профессионалы своего дела! Всегда подскажут, проконсультируют, доставка заказа в любое время и место. Качественные и недорогие холсты. Очень довольна, спасибо, что вы есть!</p>
+                        <div class="review__author">
+                            <img src="images/Катя.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Катя Жигунова</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Давно заказываю у них. Очень нравится качество. Быстрое изготовление и доставка. Можно заказать индивидуальный размер картины и выбрать материал.</p>
+                        <div class="review__author">
+                            <img src="images/Николай.jpeg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Николай Ш.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="contacts__info">
+                        <h2 class="section-title">Контакты</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <span>г. Уфа, ул. Гоголя, д. 55а</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <span>+7 (800) 350-35-30</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span>zakaz@artpicturegallery.ru</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <span>Пн-пт 09:00 - 21:00 <br> Сб-Вс 11:00 - 18:00</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" aria-label="Telegram"><i
+                                    class="fab fa-telegram-plane"></i></a>
+                        </div>
+                    </div>
+                    <div class="contacts__map">
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d575.970712069792!2d55.93906485462628!3d54.729275471389464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43d93a5d7875d02f%3A0x9a56479c5484176a!2z0YPQuy4g0JPQvtCz0L7Qu9GPLCA1NdCwLCDQo9GE0LAsINCg0LXRgdC_LiDQkdCw0YjQutC-0YDRgtC-0YHRgtCw0L0sIDQ1MDA3Ng!5e0!3m2!1sru!2sru!4v1752414225380!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="#" class="logo">Art<span>Picture</span></a>
+                    <p class="footer__text">Картины на заказ</p>
+                </div>
+                <div class="footer__nav">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Главная</a></li>
+                        <li><a href="#menu" class="footer__link">Коллекция</a></li>
+                        <li><a href="#about" class="footer__link">О нас</a></li>
+                        <li><a href="#reviews" class="footer__link">Отзывы</a></li>
+                        <li><a href="#contacts" class="footer__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__subscribe">
+                    <h3 class="footer__title">Подписка</h3>
+                    <p class="footer__text">Подпишитесь на наши новости и акции</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email" class="subscribe-input">
+                        <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© Copyright 2005-2025. Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
